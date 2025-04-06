@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VTNK-Food</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #7ee8fa, #eec0c6, #b3cdd1);
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 22px;
+      color: #555;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .explore-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .explore-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(255, 65, 108, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="c:\Users\Admin\Downloads\ChatGPT Image 10_43_08 6 thg 4, 2025.png" alt="VTNK Logo" class="logo" />
+      <h1>Welcome To VTNK-Food</h1>
+    </div>
+    <p>Nơi mà bạn có thể trải nghiệm những món ngon, đặc sản ở Việt Nam!</p>
+    <a href="c:\Users\Admin\Documents\Zalo Received Files\gioithieu.html" class="explore-btn">Xem Ngay</a>
+  </div>
+</body>
+</html>
